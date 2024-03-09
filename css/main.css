@@ -1,0 +1,104 @@
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  height: 60px;
+  padding: 20px;
+}
+
+.item__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: space-around;
+  height: 100%;
+}
+.item__img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+.item__img img {
+  width: 40px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.item__info-price {
+  font-weight: bold;
+}
+
+.chat__right {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 20px;
+}
+
+.chat__right-msg {
+  border-radius: 20px 0 20px 20px;
+  background-color: #fe7e35;
+  color: white;
+  padding: 10px;
+  margin-left: 4px;
+  max-width: 300px;
+}
+
+.chat__right-time {
+  display: flex;
+  align-items: end;
+  color: gray;
+}
+
+.chat__left {
+  display: flex;
+  align-items: start;
+  padding: 10px;
+}
+
+.chat__left-img img {
+  width: 45px;
+}
+
+.chat__left-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  border-radius: 0px 20px 20px 20px;
+  margin-right: 4px;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.chat__left-time {
+  display: flex;
+  align-items: end;
+  margin-top: 20px;
+  margin-left: 5px;
+  color: gray;
+}
+
+.chat__alret {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 20px 20px 20px;
+}
+
+.chat__alret-date {
+  display: flex;
+}
+
+.chat__alret-date-dt {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.chat__alret-date-msg {
+  margin: 5px 0 0 30px;
+}
+
+.chat__alret-date-img img {
+  width: 20px;
+}
